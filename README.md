@@ -1,3 +1,14 @@
+The gist:
 I have a vision for an art project. 
+Interactive behaviour of clicking, fills, pixel study, and event listeners.
 
-Interactive behaviour of clicking, fills, and mouse overs.s
+
+index.html
+home base
+
+on-off.html 
+click the div box to activate fill command
+key points:
+*getelementbyID
+*flexbox centering
+*if/else to command fill order
