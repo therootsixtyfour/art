@@ -31,7 +31,6 @@ header {
     justify-content: space-evenly;
     height: 200px;
     align-items: center;
-    border: 1px solid black;
 }
 
 #statement {
@@ -39,7 +38,6 @@ header {
 }
 
 .portfolio {
-    border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -57,5 +55,4 @@ header {
 }
 
 footer {
-    border: 1px solid black
 }
