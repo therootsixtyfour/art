@@ -11,35 +11,7 @@ body {
     flex-direction: column;
 }
 
-/*index home page*/
-/*needs different formatting for banner... */
-#banner {
-    position: absolute;
-    top: 10px;
-    color: black;
-}
-
-#title {
-    position: absolute;
-    top: 60px;
-}
-
-#statement {
-    position: absolute;
-    top: 100px;
-}
-
-.portfolio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.
-
 /*formatting for on-off project*/
-/*is consistency in formatting important? Maybe for the banner...*/
 #thing {
     width: 100px;
     height: 100px;
