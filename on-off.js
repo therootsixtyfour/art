@@ -4,10 +4,10 @@ const noticeEl = document.getElementById("notice");
 function divFill () {
     if (divEl.classList.length === 0) {
         divEl.classList.add("on")
-        noticeEl.innerText = "on";
+        noticeEl.innerText = "status: on";
     } else if (divEl.classList.length === 1) {
         divEl.classList.remove("on");
-        noticeEl.innerText = "off";
+        noticeEl.innerText = "status: off";
     } else {
         console.log("trouble"); 
     }
