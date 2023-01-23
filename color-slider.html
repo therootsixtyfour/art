@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="color-slider.css">
 </head>
 <body>
+    <a href="index.html" id="home">home</a>
     <div class="slide-container">
-        <input type="range" min="0" max="255" value="0" class="slider" id="red">
+        <input type="range" min="0" max="255" value="0" class="slider" id="red-slider">
+        <p id="red-value"></p>
     </div>
     <div class="slide-container">
-        <input type="range" min="0" max="255" value="0" class="slider" id="blue">
+        <input type="range" min="0" max="255" value="0" class="slider" id="blue-slider">
+        <p id="blue-value"></p>
     </div>
     <div class="slide-container">
-        <input type="range" min="0" max="255" value="0" class="slider" id="green">
+        <input type="range" min="0" max="255" value="0" class="slider" id="green-slider">
+        <p id="green-value"></p>
     </div>
     <div class="color-me" id="color-me"></div>
     <script src="color-slider.js"></script>

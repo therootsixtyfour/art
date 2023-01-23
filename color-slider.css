@@ -9,6 +9,12 @@ body{
     flex-direction: column;
 }
 
+#home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .slide-container {
     display: flex;
     justify-content: space-between;
@@ -49,5 +55,6 @@ body{
     height: 200px;
     border: 1px solid black;
     margin: 50px;
+    border-radius: 10px;
 }
 
