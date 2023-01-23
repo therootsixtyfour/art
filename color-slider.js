@@ -16,30 +16,25 @@ greenValue.innerText = greenSlider.value;
 let userRed = "0";
 let userBlue = "0";
 let userGreen= "0";
+colorMe.style.backgroundColor = `rgb(${userRed}, ${userGreen}, ${userBlue})`;
 
-console.log(`rgb(${userRed}, ${userBlue}, ${userGreen})`)
+function colorDiv() {
+    colorMe.style.backgroundColor = `rgb(${userRed}, ${userGreen}, ${userBlue})`
+}
 
 redSlider.oninput = function() {
     redValue.innerText = this.value;
     userRed = this.value;
-    console.log(userRed);
-    colorMe.style.backgroundColor = `rgb(${userRed}, ${userBlue}, ${userGreen})`
+    colorDiv();}
+
+greenSlider.oninput = function() {
+    greenValue.innerText = this.value;
+    userGreen = this.value;
+    colorDiv();
 }
 
 blueSlider.oninput = function() {
     blueValue.innerText = this.value;
     userBlue = this.value;
-    colorMe.style.backgroundColor = `rgb(${userRed}, ${userBlue}, ${userGreen})`
-
+    colorDiv();
 }
-
-greenSlider.oninput = function() {
-    greenValue.innerText = this.value;
-    userGreen = this.value;
-    colorMe.style.backgroundColor = `rgb(${userRed}, ${userBlue}, ${userGreen})`
-
-}
-
-/* how to make background of element with variables? */
-
-
