@@ -1,35 +1,57 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
     box-sizing: border-box;
 }
+
+/*Josh W Comeau full bleed*/
+.wrapper {
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(65ch, 100%)
+      1fr;
+  }
+
+  .wrapper > * {
+    grid-column: 2;
+  }
+
+  .full-bleed {
+    width: 100%;
+    grid-column: 1 / 4;
+  }
+
+
+/*My own styling:*/
 
 header {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
     align-items: center;
-    background-color: ;
     border: 1px solid black;
-    border-radius: 2px;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-}
-
-h5 {
-    align-self: center;
 }
 
 .portfolio {
+    border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .project {
     border: 1px solid black;
-    padding: 25px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
+}
+
+footer {
+    border: 1px solid black
 }

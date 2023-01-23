@@ -14,4 +14,3 @@ function divFill () {
 }
 
 divEl.addEventListener('click', divFill);
-
