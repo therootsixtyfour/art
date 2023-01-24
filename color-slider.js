@@ -9,7 +9,8 @@ const greenValue = document.getElementById("green-value");
 const aValue = document.getElementById("a-value");
 
 const colorMe = document.getElementById("color-me");
-const bodyEl = document.getElementsByTagName("body");
+const rgbaText = document.getElementById("rgba");
+
 
 redValue.innerText = redSlider.value;
 blueValue.innerText = blueSlider.value;
@@ -24,7 +25,8 @@ let userA = "1"
 colorDiv(); 
 
 function colorDiv() {
-    colorMe.style.backgroundColor = `rgba(${userRed}, ${userGreen}, ${userBlue}, ${userA})`
+    colorMe.style.backgroundColor = `rgba(${userRed}, ${userGreen}, ${userBlue}, ${userA})`;
+    rgbaText.innerText = `rgba(${userRed}, ${userGreen}, ${userBlue}, ${userA})`;
 }
 
 redSlider.oninput = function() {

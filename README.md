@@ -13,16 +13,12 @@ key points:
 *flexbox centering
 *if/else to command fill order
 
-
+color-slider.html
+*get info from sliders
+*activate div background using interactive RGBA values
+*unique formatting of slider and handles. 
 
 
 ideas
-link to similar or otherwise connect projects. inspiration, technique, whatever
-other artist partnerships
-
 glide in top and bottom menu. 
-
-different css files for different projects
-as well as the menu bar/footer
-... wait. Cant this be done is JS?
-have HEADER and FOOTER as singular elements in the main page, and then append that element to the body elsewhere on OTHER PAGES??? Call the same CSS over too?
+zoom in/out pixel
