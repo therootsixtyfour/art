@@ -1,15 +1,17 @@
-const circleEl = document.createElement("div");
+const circleEl = document.createElement("span");
 circleEl.classList.add("circle");
 
 const canvasEl = document.getElementById("canvas");
 
-function addCircle() {
-    circleEl.style.marginTop = "100px";
-    canvasEl.style.marginLeft = "100px"
+function addCircle(x, y) {
+    circleEl.style.marginTop = y + "px";
+    circleEl.style.marginLeft = x + "px";
     canvasEl.appendChild(circleEl);
 }
 
-addCircle();
-
-/* find xy coordinates of pointer, make the circle there.
-delete on move. */
+canvasEl.addEventListener("mousemove", (event) => {
+    const xPos = event.offsetX;
+    const yPos = event.offsetY;
+    console.log(xPos, yPos);
+    addCircle(xPos, yPos);
+})

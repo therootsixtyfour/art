@@ -60,7 +60,7 @@ header {
   border: 1px solid black;
   height: 45%;
   width: 45%;
-  margin: 4%;
+  margin: 10%;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -88,6 +88,18 @@ header {
 
 .on-off {
   background-color: black;
+}
+
+.moving-circle {
+  background-color: #00db96;
+}
+
+.circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #e10086
 }
 
 footer {
