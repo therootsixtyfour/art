@@ -58,9 +58,9 @@ header {
 
 .peek {
   border: 1px solid black;
-  height: 45%;
-  width: 45%;
-  margin: 10%;
+  height: 65%;
+  width: 65%;
+  margin: 6%;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
