@@ -8,9 +8,29 @@
     <title>grid-illustrate</title>
 </head>
 <body>
-    <h3>I want to paint</h3>
-    <div id="grid-container">
+    <h3>Let's paint</h3>
+    <div id="grid-container"></div>
+    <div class="color-pallette">
+        <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="red-slider">
+            <p id="red-value"></p>
+        </div>
+        <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="green-slider">
+            <p id="green-value"></p>
+        </div>
+        <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="blue-slider">
+            <p id="blue-value"></p>
+        </div>
+        <div class="slide-container">
+            <input type="range" min="0" max="1" value="1" step=".01" class="slider" id="a-slider">
+            <p id="a-value"></p>
+        </div>
+        <p id="rgba"></p>
+        <div class="color-me" id="color-me"></div>
     </div>
     <script src="grid-illustrate.js"></script>
+    <script src="color-slider.js"></script>
 </body>
 </html>

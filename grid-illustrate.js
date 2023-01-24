@@ -4,7 +4,7 @@ const gridContainerEl = document.getElementById("grid-container");
 
 // want user input for grid size...or make it different based on screens?
 
-let n = 18;
+let n = 4;
 
 function makeGrid(n) {
     /** make rows and columns */
@@ -54,7 +54,7 @@ function addClickEventsToGridItems() {
     let gridItems = document.getElementsByClassName("grid-item");
     for (let i = 0; i < gridItems.length; i++) {
       gridItems[i].onclick = (e) => {
-        gridItems[i].style.backgroundColor = "black";
+        gridItems[i].style.backgroundColor = "black"; //this is my own addition
         let position = getGridElementsPosition(getNodeIndex(e.target));
         console.log(
           `Node position is row ${position.row}, column ${position.column}`
