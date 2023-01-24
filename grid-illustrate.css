@@ -39,6 +39,7 @@ h3 {
     grid-area: b;
     align-self: center;
     justify-self: center;
+    border-radius: 10px;
 }
 
 .slide-container {
